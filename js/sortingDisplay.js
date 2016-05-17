@@ -3,6 +3,8 @@
  */
 'use strict';
 
+let Component = require('./component');
+
 class SortingDisplay extends Component {
   constructor(options) {
     super(options);
@@ -55,3 +57,5 @@ class SortingDisplay extends Component {
     element.className = 'element bg-info';
   }
 }
+
+module.exports = SortingDisplay;

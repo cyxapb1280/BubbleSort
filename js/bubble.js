@@ -50,3 +50,5 @@ class Bubble {
     this._showSwap(first, second);
   }
 }
+
+module.exports = Bubble;

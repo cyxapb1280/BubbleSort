@@ -3,6 +3,8 @@
  */
 'use strict';
 
+let Component = require('./component');
+
 class ArrayInput extends Component {
   constructor(options) {
     super(options);
@@ -66,3 +68,5 @@ class ArrayInput extends Component {
     }, 3000);
   }
 }
+
+module.exports = ArrayInput;

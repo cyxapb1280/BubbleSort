@@ -1,6 +1,10 @@
 /**
  * Created by Ruslan on 10-Apr-16.
  */
+'use strict';
+
+let Component = require('./component');
+
 class Controls extends Component {
   constructor(options) {
     super(options);
@@ -45,3 +49,5 @@ class Controls extends Component {
     this._trigger('next');
   }
 }
+
+module.exports = Controls;

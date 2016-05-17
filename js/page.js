@@ -1,6 +1,13 @@
 /**
  * Created by Ruslan on 10-Apr-16.
  */
+'use strict';
+
+let Component = require('./component');
+let ArrayInput = require('./arrayInput');
+let Controls = require('./controls');
+let SortingDisplay = require('./sortingDisplay');
+let Bubble = require('./bubble');
 
 class Page extends Component {
   constructor(options) {
@@ -36,11 +43,11 @@ class Page extends Component {
     this._bubble.array = array;
   }
 
-  _onControlsCancel(event) {
+  _onControlsCancel() {
     console.log('Cancel');
   }
 
-  _onControlsNext(event) {
+  _onControlsNext() {
     if (!this._bubble.nextStep()) {
       this._done();
     }
@@ -82,3 +89,5 @@ class Page extends Component {
   }
   
 }
+
+module.exports = Page;

@@ -1,3 +1,6 @@
+/**
+ * Created by Ruslan on 10-Apr-16.
+ */
 'use strict';
 
 class Component {
@@ -25,3 +28,5 @@ class Component {
     this._el.dispatchEvent(event);
   }
 }
+
+module.exports = Component;
