@@ -1,0 +1,28 @@
+.message {
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.done {
+  margin-top: 1em;
+}
+
+.closing {
+  opacity: 0;
+}
+
+.element {
+  margin: 2px;
+  text-align: center;
+  padding: 1em;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.elements-container {
+  margin: 5px;
+}
